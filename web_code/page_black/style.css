@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(to bottom right, #3498db, #e74c3c);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+  color: black;
+}
+
+table, th, td {
+    border: 1px solid #3498db;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+.highlighted {
+    background-color: #e74c3c;
+    color: white;
+}
+
+
+/* Add a new CSS rule to style the highlighted row in the table */
+tr.highlighted {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Add a new CSS rule to style the highlighted item in the left column */
+.item.highlighted {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Add styles for the header */
+.header {
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+/* --------------new------------ */
+
+
+/* text pointer class */
+
+.item {
+    cursor: pointer;
+    /* font-weight: bold; */
+    color: #000000;
+    /* padding: 5px; */
+}
+
+/* Apply the style directly to all <p> tags */
+p {
+    color: #000000;
+    /* font-weight: bold; */
+    /* padding: 5px; */
+}
